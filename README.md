@@ -1,0 +1,1 @@
+The Checkout Challenge of Week 1
