@@ -8,9 +8,13 @@ class Commodity
     end
 
     def tie_price 
-        my_hash = {price: 9.25}
+        tie_hash = {price: 9.25}
     end
 
+    def sweater_price
+        sweater_hash = {price: 45.00}
+    end
+    
 end
 
 

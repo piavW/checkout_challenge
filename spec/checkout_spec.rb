@@ -12,8 +12,14 @@ describe Commodity do
         end
     end
 
-    it 'has the type of sweater with number 002' do
-        expect(subject.sweater).to eq 002
+    context 'sweater' do
+        it 'has the type of sweater with number 002' do
+            expect(subject.sweater).to eq 002
+        end
+
+        it 'sweater has a price of $45.00' do
+            expect(subject.sweater_price).to include(:price)
+        end
     end
 
     it 'has the type of skirt with number 003' do
