@@ -7,6 +7,10 @@ class Commodity
         @skirt = 003
     end
 
+    def tie_price 
+        my_hash = {price: 9.25}
+    end
+
 end
 
 
